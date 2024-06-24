@@ -4,6 +4,11 @@ import Home from './Pages/Home';
 import './App.css';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
+import Paintings from './Pages/Paintings';
+import Ears from './Pages/Ears';
+import Clay from './Pages/Clay';
+
+
 const router = createBrowserRouter([
 
 {
@@ -20,7 +25,20 @@ const router = createBrowserRouter([
         {
             path: '/contact',
             element: <Contact/>,
+        },
+        {
+            path: '/paintings',
+            element: <Paintings/>,
+        }, 
+        {
+            path: '/animal-ears',
+            element: <Ears/>,
+        },
+        {
+            path: '/clay',
+            element: <Clay/>,
         }
+    
 
     ]
 
