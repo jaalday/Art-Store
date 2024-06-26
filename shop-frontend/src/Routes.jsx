@@ -7,6 +7,7 @@ import Contact from './Pages/Contact';
 import Paintings from './Pages/Paintings';
 import Ears from './Pages/Ears';
 import Clay from './Pages/Clay';
+import Cart from './Pages/Cart';
 
 
 const router = createBrowserRouter([
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
         {
             path: '/clay',
             element: <Clay/>,
+        },
+        {
+            path: '/cart',
+            element: <Cart/>,
         }
     
 

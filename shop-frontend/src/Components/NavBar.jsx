@@ -24,8 +24,9 @@ const NavBar = () => {
            <Link to="/contact"> <h4 className="nav-text">Contact</h4></Link>
             
             <Link to ="/about"><h4 className="nav-text">About</h4></Link>
-            <h4 className="nav-text">Login</h4>
-      
+       
+           <Link to="/cart"><img src="https://static.vecteezy.com/system/resources/previews/016/220/847/non_2x/shopping-cart-icon-free-vector.jpg" alt="cart" className="cart-icon"/></Link> 
+
       
 
         </div>
